@@ -1,0 +1,10 @@
+{
+    "Id": "AnyDifficulty",
+    "DisplayName": "Ignore Difficulty Checks",
+    "Author": "powerlunatic",
+    "Version": "1.0.0",
+    "ManagerVersion": "0.24.0",
+    "Requirements": [],
+    "AssemblyName": "AnyDifficulty.dll",
+    "EntryMethod": "AnyDifficulty.Main.Load"
+}
