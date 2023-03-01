@@ -9,5 +9,5 @@ using Kingmaker.Settings.Difficulty;
 )]
 class DifficultyCompareToPatch
 {
-    static int Postfix(DifficultyPreset other, ref int __result) => other == null ? 1 : -__result;
+    static int Postfix(int result, DifficultyPreset other) => other == null ? 1 : -result;
 }

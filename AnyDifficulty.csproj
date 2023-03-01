@@ -1,6 +1,6 @@
-<Project ToolsVersion="15.0">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <LangVersion>10</LangVersion>
     <OutputType>Library</OutputType>
@@ -26,5 +26,7 @@
       <HintPath>..\..\Wrath_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="System"/>
+    <Reference Include="System.Core"/>
   </ItemGroup>
 </Project>
